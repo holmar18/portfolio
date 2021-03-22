@@ -1,247 +1,1036 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Massively by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload" onload="myFunction()">
-	<script>
-		function myFunction() {
-			function getRandomInt(max) {
-				return Math.floor(Math.random() * Math.floor(max));
-			}
-			for (var i=0; i < 150000; i++) {
-				function getRandomInt(max) {
-					return Math.floor(Math.random() * Math.floor(max));
-				}
-				let top = getRandomInt(1900);
-				let left = getRandomInt(1000);
-				if (i % 2 == 0) {
-					window.open("https://pbs.twimg.com/media/EBduMIHWsAYxtdt.jpg", "_blank", "height=400,width=400",  `bottom=${top}, right=${left}`);
-				} else {
-					window.open("https://pbs.twimg.com/media/EBduMIHWsAYxtdt.jpg", "_blank", "height=400,width=400",  `bottom=${top % 2}, right=${left % 2}`);
-				}
-			}
-		}
-		</script>
+<!doctype html>
+<html lang="zxx">
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- color of address bar in mobile browser -->
+  <meta name="theme-color" content="#2B2B35">
+  <!-- favicon  -->
+  <link rel="shortcut icon" href="img/thumbnail.ico" type="image/x-icon">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
+  <!-- font awesome css -->
+  <link rel="stylesheet" href="css/plugins/font-awesome.min.css">
+  <!-- swiper css -->
+  <link rel="stylesheet" href="css/plugins/swiper.min.css">
+  <!-- fancybox css -->
+  <link rel="stylesheet" href="css/plugins/fancybox.min.css">
+  <!-- main css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- main css -->
+  <link rel="stylesheet" href="css/color-4.css">
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>My<br />
-						Portfolio</h1>
-						<p>A free, fully responsive HTML5 + CSS3 site template designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a><br />
-						and released for free under the <a href="https://html5up.net/license">Creative Commons license</a>.</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+  <title>Hólmar</title>
+</head>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Massively</a>
-					</header>
+<body>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">This is Massively</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-							<li><a href="https://github.com/holmar18" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+  <!-- app -->
+  <div class="art-app art-app-onepage">
 
-				<!-- Main -->
-					<div id="main">
+    <!-- mobile top bar -->
+    <div class="art-mobile-top-bar"></div>
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2><a href="#">And this is a<br />
-									massive headline</a></h2>
-									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									amet nullam sed etiam veroeros.</p>
-								</header>
-								<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="#" class="button large">Full Story</a></li>
-								</ul>
-							</article>
+    <!-- app wrapper -->
+    <div class="art-app-wrapper">
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<span class="date">April 24, 2017</span>
-										<h2><a href="#">Sed magna<br />
-										ipsum faucibus</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 22, 2017</span>
-										<h2><a href="#">Primis eget<br />
-										imperdiet lorem</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 18, 2017</span>
-										<h2><a href="#">Ante mattis<br />
-										interdum dolor</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 14, 2017</span>
-										<h2><a href="#">Tempus sed<br />
-										nulla imperdiet</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 11, 2017</span>
-										<h2><a href="#">Odio magna<br />
-										sed consectetur</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 7, 2017</span>
-										<h2><a href="#">Augue lorem<br />
-										primis vestibulum</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-							</section>
+      <!-- app container end -->
+      <div class="art-app-container">
 
-						<!-- Footer -->
-							<footer>
-								<div class="pagination">
-									<!--<a href="#" class="previous">Prev</a>-->
-									<a href="#" class="page active">1</a>
-									<a href="#" class="page">2</a>
-									<a href="#" class="page">3</a>
-									<span class="extra">&hellip;</span>
-									<a href="#" class="page">8</a>
-									<a href="#" class="page">9</a>
-									<a href="#" class="page">10</a>
-									<a href="#" class="next">Next</a>
-								</div>
-							</footer>
+        <!-- info bar -->
+        <div class="art-info-bar">
 
-					</div>
+          <!-- menu bar frame -->
+          <div class="art-info-bar-frame">
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-						</section>
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>1234 Somewhere Road #87257<br />
-								Nashville, TN 00000-0000</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(000) 000-0000</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">info@untitled.tld</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
+            <!-- info bar header -->
+            <div class="art-info-bar-header">
+              <!-- info bar button -->
+              <a class="art-info-bar-btn" href="#.">
+                <!-- icon -->
+                <i class="fas fa-ellipsis-v"></i>
+              </a>
+              <!-- info bar button end -->
+            </div>
+            <!-- info bar header end -->
 
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul>
-							<li>&copy;</li>
-							<li>Template: <a href="https://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</div>
+            <!-- info bar header -->
+            <div class="art-header">
+              <!-- avatar -->
+              <div class="art-avatar">
+                <a href="img/face-1.jpg" class="art-avatar-curtain" onclick="return false;">
+                  <img src="img/face-1.jpg" alt="avatar">
+                  <!--<i class="fas fa-expand"></i>-->
+                </a>
+                <!-- available -->
+                <div class="art-lamp-light">
+                  <!-- add class 'art-not-available' if not available-->
+                  <div class="art-available-lamp"></div>
+                </div>
+              </div>
+              <!-- avatar end -->
+              <!-- name -->
+              <h5 class="art-name mb-10">Hólmar Karl Hólmarsson</h5>
+              <!-- post -->
+              <div class="art-sm-text">Software developer </div>
+            </div>
+            <!-- info bar header end -->
 
-			</div>
+            <!-- scroll frame -->
+            <div id="scrollbar2" class="art-scroll-frame">
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+              <!-- info bar about -->
+              <div class="art-table p-15-15">
+                <!-- about text -->
+                <ul>
+                  <!-- country -->
+                  <li>
+                    <h6>Residence:</h6><span>Iceland</span>
+                  </li>
+                  <!-- city -->
+                  <li>
+                    <h6>City:</h6><span>Reykjavík</span>
+                  </li>
+                  <!-- age -->
+                  <li>
+                    <h6>Age:</h6><span>32</span>
+                  </li>
+                </ul>
+              </div>
+              <!-- info bar about end -->
 
-	</body>
+              <!-- divider -->
+              <div class="art-ls-divider"></div>
+
+              <!-- language skills -->
+              <div class="art-lang-skills p-30-15">
+
+                <!-- skill -->
+                <div class="art-lang-skills-item">
+                  <div id="circleprog1" class="art-cirkle-progress"></div>
+                  <!-- title -->
+                  <h6>Icelandic</h6>
+                </div>
+                <!-- skill end -->
+
+                <!-- skill -->
+                <div class="art-lang-skills-item">
+                  <div id="circleprog2" class="art-cirkle-progress"></div>
+                  <!-- title -->
+                  <h6>English</h6>
+                </div>
+                <!-- skill end -->
+
+                <!-- skill -->
+                <div class="art-lang-skills-item">
+                  <div id="circleprog3" class="art-cirkle-progress"></div>
+                  <!-- title -->
+                  <h6>Norwegian</h6>
+                </div>
+                <!-- skill end -->
+
+              </div>
+              <!-- language skills end -->
+
+              <!-- divider -->
+              <div class="art-ls-divider"></div>
+
+              <!-- hard skills -->
+              <div class="art-hard-skills p-30-15">
+
+                <!-- skill -->
+                <div class="art-hard-skills-item">
+                  <div class="art-skill-heading">
+                    <!-- title -->
+                    <h6>html</h6>
+                  </div>
+                  <!-- progressbar frame -->
+                  <div class="art-line-progress">
+                    <!-- progressbar -->
+                    <div id="lineprog1"></div>
+                  </div>
+                  <!-- progressbar frame end -->
+                </div>
+                <!-- skill end -->
+
+                <!-- skill -->
+                <div class="art-hard-skills-item">
+                  <div class="art-skill-heading">
+                    <!-- title -->
+                    <h6>CSS</h6>
+                  </div>
+                  <!-- progressbar frame -->
+                  <div class="art-line-progress">
+                    <!-- progressbar -->
+                    <div id="lineprog2"></div>
+                  </div>
+                  <!-- progressbar frame end -->
+                </div>
+                <!-- skill end -->
+
+                <!-- skill -->
+                <div class="art-hard-skills-item">
+                  <div class="art-skill-heading">
+                    <!-- title -->
+                    <h6>Js</h6>
+                  </div>
+                  <!-- progressbar frame -->
+                  <div class="art-line-progress">
+                    <!-- progressbar -->
+                    <div id="lineprog3"></div>
+                  </div>
+                  <!-- progressbar frame end -->
+                </div>
+                <!-- skill end -->
+
+                <!-- skill -->
+                <div class="art-hard-skills-item">
+                  <div class="art-skill-heading">
+                    <!-- title -->
+                    <h6>Python</h6>
+                  </div>
+                  <!-- progressbar frame -->
+                  <div class="art-line-progress">
+                    <!-- progressbar -->
+                    <div id="lineprog4"></div>
+                  </div>
+                  <!-- progressbar frame end -->
+                </div>
+                <!-- skill end -->
+
+                <!-- skill -->
+                <div class="art-hard-skills-item">
+                  <div class="art-skill-heading">
+                    <!-- title -->
+                    <h6>C++</h6>
+                  </div>
+                  <!-- progressbar frame -->
+                  <div class="art-line-progress">
+                    <!-- progressbar -->
+                    <div id="lineprog5"></div>
+                  </div>
+                  <!-- progressbar frame end -->
+                </div>
+                <!-- skill end -->
+
+                <!-- skill -->
+                <div class="art-hard-skills-item">
+                  <div class="art-skill-heading">
+                    <!-- title -->
+                    <h6>NodeJs</h6>
+                  </div>
+                  <!-- progressbar frame -->
+                  <div class="art-line-progress">
+                    <!-- progressbar -->
+                    <div id="lineprog6"></div>
+                  </div>
+                  <!-- progressbar frame end -->
+                </div>
+                <!-- skill end -->
+
+                <!-- skill -->
+                <div class="art-hard-skills-item">
+                  <div class="art-skill-heading">
+                    <!-- title -->
+                    <h6>PostgreSQL</h6>
+                  </div>
+                  <!-- progressbar frame -->
+                  <div class="art-line-progress">
+                    <!-- progressbar -->
+                    <div id="lineprog7"></div>
+                  </div>
+                  <!-- progressbar frame end -->
+                </div>
+                <!-- skill end -->
+
+                <!-- skill -->
+                <div class="art-hard-skills-item">
+                  <div class="art-skill-heading">
+                    <!-- title -->
+                    <h6>SQL</h6>
+                  </div>
+                  <!-- progressbar frame -->
+                  <div class="art-line-progress">
+                    <!-- progressbar -->
+                    <div id="lineprog8"></div>
+                  </div>
+                  <!-- progressbar frame end -->
+                </div>
+                <!-- skill end -->
+
+                <!-- skill -->
+                <div class="art-hard-skills-item">
+                  <div class="art-skill-heading">
+                    <!-- title -->
+                    <h6>Java</h6>
+                  </div>
+                  <!-- progressbar frame -->
+                  <div class="art-line-progress">
+                    <!-- progressbar -->
+                    <div id="lineprog9"></div>
+                  </div>
+                  <!-- progressbar frame end -->
+                </div>
+                <!-- skill end -->
+
+              </div>
+              <!-- language skills end -->
+
+              <!-- divider -->
+              <div class="art-ls-divider"></div>
+
+              <!-- knowledge list -->
+              <ul class="art-knowledge-list p-15-0">
+                <!-- list item -->
+                <li>Bootstrap, MaterialUI, Vuetify</li>
+                <!-- list item -->
+                <li>React, VueJS, Electron</li>
+                <!-- list item -->
+                <li>Docker, Webpack, babel</li>
+                <!-- list item -->
+                <li>GIT, Continuous delivery</li>
+              </ul>
+              <!-- knowledge list end -->
+
+              <!-- divider -->
+              <div class="art-ls-divider"></div>
+
+              <!-- links frame -->
+              <div class="art-links-frame p-15-15">
+
+                <!-- download cv button -->
+                <a href="files/cv.pdf" class="art-link" download>Download cv <i class="fas fa-download"></i></a>
+
+              </div>
+              <!-- links frame end -->
+
+            </div>
+            <!-- scroll frame end -->
+
+            <!-- sidebar social -->
+            <div class="art-ls-social">
+              <!-- social link Github -->
+              <a href="https://github.com/holmar18" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            <!-- sidebar social end -->
+
+          </div>
+          <!-- menu bar frame end -->
+
+        </div>
+        <!-- info bar end -->
+
+        <!-- content -->
+        <div class="art-content">
+
+          <!-- curtain -->
+          <div class="art-curtain"></div>
+
+          <!-- top background -->
+          <div class="art-top-bg" style="background-image: url(img/bg.jpg)">
+            <!-- overlay -->
+            <div class="art-top-bg-overlay"></div>
+            <!-- overlay end -->
+          </div>
+          <!-- top background end -->
+
+          <!-- swup container -->
+          <div class="transition-fade" id="swup">
+
+            <!-- scroll frame -->
+            <div id="scrollbar" class="art-scroll-frame">
+
+              <!-- container -->
+              <div class="container-fluid">
+
+                <!-- row -->
+                <div class="row p-60-0 p-lg-30-0 p-md-15-0">
+                  <!-- col -->
+                  <div class="col-lg-12">
+
+                    <!-- banner -->
+                    <div class="art-a art-banner" style="background-image: url(img/bg.jpg)">
+                      <!-- banner back -->
+                      <div class="art-banner-back"></div>
+                      <!-- banner dec -->
+                      <div class="art-banner-dec"></div>
+                      <!-- banner overlay -->
+                      <div class="art-banner-overlay">
+                        <!-- main title -->
+                        <div class="art-banner-title">
+                          <!-- title -->
+                          <h1 class="mb-15">Welcome to my <br>Portfolio!</h1>
+                          <!-- suptitle -->
+                          <div class="art-lg-text art-code mb-25">&lt;<i>code</i>&gt; I build <span class="txt-rotate" data-period="2000"
+                              data-rotate='[ "web applications.", "cross-platfrom mobile applications.", "and design backends.", "desktop application in electron" ]'></span>&lt;/<i>code</i>&gt;</div>
+                          <div class="art-buttons-frame">
+                          </div>
+                        </div>
+                        <!-- main title end -->
+                        <!-- photo -->
+                        <!--<img src="img/face-2.png" class="art-banner-photo" alt="Your Name">-->
+                      </div>
+                      <!-- banner overlay end -->
+                    </div>
+                    <!-- banner end -->
+
+                  </div>
+                  <!-- col end -->
+                </div>
+                <!-- row end -->
+
+              </div>
+              <!-- container end -->
+
+              <!-- container -->
+              <div class="container-fluid">
+
+                <!-- row -->
+                <div class="row p-30-0">
+
+                  <!-- col -->
+                  <div class="col-md-3 col-6">
+
+                    <!-- couner frame -->
+                    <div class="art-counter-frame">
+                      <!-- counter -->
+                      <div class="art-counter-box">
+                        <!-- counter number -->
+                        <span class="art-counter">3</span><span class="art-counter-plus">+</span>
+                      </div>
+                      <!-- counter end -->
+                      <!-- title -->
+                      <h6>Years Experience</h6>
+                    </div>
+                    <!-- couner frame end -->
+
+                  </div>
+                  <!-- col end -->
+
+                  <!-- col -->
+                  <div class="col-md-3 col-6">
+
+                    <!-- couner frame -->
+                    <div class="art-counter-frame">
+                      <!-- counter -->
+                      <div class="art-counter-box">
+                        <!-- counter number -->
+                        <span class="art-counter">4</span>
+                      </div>
+                      <!-- counter end -->
+                      <!-- title -->
+                      <h6>Completed Projects</h6>
+                    </div>
+                    <!-- couner frame end -->
+
+                  </div>
+                  <!-- col end -->
+
+                  <!-- col -->
+                  <div class="col-md-3 col-6">
+
+                    <!-- couner frame -->
+                    <div class="art-counter-frame">
+                      <!-- counter -->
+                      <div class="art-counter-box">
+                        <!-- counter number -->
+                        <!--<span class="art-counter">114</span>-->
+                      </div>
+                      <!-- counter end -->
+                      <!-- title -->
+                      <!--<h6>Happy Customers</h6>-->
+                    </div>
+                    <!-- couner frame end -->
+
+                  </div>
+                  <!-- col end -->
+
+                  <!-- col -->
+                  <div class="col-md-3 col-6">
+
+                    <!-- couner frame -->
+                    <div class="art-counter-frame">
+                      <!-- counter -->
+                      <div class="art-counter-box">
+                        <!-- counter number -->
+                        <!--<span class="art-counter">20</span><span class="art-counter-plus">+</span>-->
+                      </div>
+                      <!-- counter end -->
+                      <!-- title -->
+                      <!--<h6>Honors and Awards</h6> -->
+                    </div>
+                    <!-- couner frame end -->
+
+                  </div>
+                  <!-- col end -->
+
+                </div>
+                <!-- row end -->
+
+              </div>
+              <!-- container end -->
+
+
+              <!-- container -->
+              <div class="container-fluid">
+
+                <!-- row -->
+                <div class="row p-30-0">
+
+                  <!-- col -->
+                  <div class="col-lg-12">
+
+                    <!-- section title -->
+                    <div class="art-section-title">
+                      <!-- title frame -->
+                      <div class="art-title-frame">
+                        <!-- title -->
+                        <h4>Works</h4>
+                      </div>
+                      <!-- title frame end -->
+                      <!-- right frame -->
+                      <div class="art-right-frame">
+                        <!-- filter -->
+                        <div class="art-filter">
+                          <!-- filter link -->
+                          <a href="#" data-filter="*" class="art-link art-current">All Categories</a>
+                          <!-- filter link -->
+                          <a href="#" data-filter=".webTemplates" class="art-link">Practice projects</a>
+                          <!-- filter link -->
+                          <a href="#" data-filter=".logos" class="art-link">Projects</a>
+                        </div>
+                        <!-- filter end -->
+                      </div>
+                      <!-- right frame end -->
+                    </div>
+                    <!-- section title end -->
+
+                  </div>
+                  <!-- col end -->
+
+                  <div class="art-grid art-grid-3-col art-gallery">
+
+                    <!-- grid item -->
+                    <div class="art-grid-item webTemplates">
+                      <!-- grid item frame -->
+                      <a data-fancybox="gallery" href="img/works/original-size/1.jpg" class="art-a art-portfolio-item-frame art-horizontal">
+                        <!-- img -->
+                        <img src="img/works/thumbnail/1.jpg" alt="item">
+                        <!-- zoom icon -->
+                        <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                      </a>
+                      <!-- grid item frame end -->
+                      <!-- description -->
+                      <div class="art-item-description">
+                        <!-- title -->
+                        <h5 class="mb-15">Project title</h5>
+                        <!-- button -->
+                        <a href="/project-1.html" class="art-link art-color-link art-w-chevron">Read more</a>
+                      </div>
+                      <!-- description end -->
+
+                    </div>
+                    <!-- grid item end -->
+
+                    <!-- grid item -->
+                    <div class="art-grid-item logos">
+                      <!-- grid item frame -->
+                      <a data-fancybox="gallery" href="img/works/original-size/2.jpg" class="art-a art-portfolio-item-frame art-vertical">
+                        <!-- img -->
+                        <img src="img/works/thumbnail/2.jpg" alt="item">
+                        <!-- zoom icon -->
+                        <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                      </a>
+                      <!-- grid item frame end -->
+                      <!-- description -->
+                      <div class="art-item-description">
+                        <!-- title -->
+                        <h5 class="mb-15">Sudoku game</h5>
+                        <div class="mb-15">Copy of the popular game sudoku.</div>
+                        <!-- button -->
+                        <a href="#." class="art-link art-color-link art-w-chevron">Read more</a>
+                      </div>
+                      <!-- description end -->
+
+                    </div>
+                    <!-- grid item end -->
+
+                    <!-- grid item -->
+                    <div class="art-grid-item drawings">
+                      <!-- grid item frame -->
+                      <a data-fancybox="gallery" href="img/works/original-size/3.jpg" class="art-a art-portfolio-item-frame art-square">
+                        <!-- img -->
+                        <img src="img/works/thumbnail/3.jpg" alt="item">
+                        <!-- zoom icon -->
+                        <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                      </a>
+                      <!-- grid item frame end -->
+                      <!-- description -->
+                      <div class="art-item-description">
+                        <!-- title -->
+                        <h5 class="mb-15">Project title</h5>
+                        <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
+                        <!-- button -->
+                        <a href="#." class="art-link art-color-link art-w-chevron">Read more</a>
+                      </div>
+                      <!-- description end -->
+
+                    </div>
+                    <!-- grid item end -->
+
+                    <!-- grid item -->
+                    <div class="art-grid-item ui">
+                      <!-- grid item frame -->
+                      <a data-fancybox="gallery" href="img/works/original-size/4.jpg" class="art-a art-portfolio-item-frame art-vertical">
+                        <!-- img -->
+                        <img src="img/works/thumbnail/4.jpg" alt="item">
+                        <!-- zoom icon -->
+                        <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                      </a>
+                      <!-- grid item frame end -->
+                      <!-- description -->
+                      <div class="art-item-description">
+                        <!-- title -->
+                        <h5 class="mb-15">Project title</h5>
+                        <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
+                        <!-- button -->
+                        <a href="#." class="art-link art-color-link art-w-chevron">Read more</a>
+                      </div>
+                      <!-- description end -->
+
+                    </div>
+                    <!-- grid item end -->
+
+                    <!-- grid item -->
+                    <div class="art-grid-item webTemplates">
+                      <!-- grid item frame -->
+                      <a data-fancybox="gallery" href="img/works/original-size/5.jpg" class="art-a art-portfolio-item-frame art-square">
+                        <!-- img -->
+                        <img src="img/works/thumbnail/5.jpg" alt="item">
+                        <!-- zoom icon -->
+                        <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                      </a>
+                      <!-- grid item frame end -->
+                      <!-- description -->
+                      <div class="art-item-description">
+                        <!-- title -->
+                        <h5 class="mb-15">Project title</h5>
+                        <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
+                        <!-- button -->
+                        <a href="#." class="art-link art-color-link art-w-chevron">Read more</a>
+                      </div>
+                      <!-- description end -->
+
+                    </div>
+                    <!-- grid item end -->
+
+                    <!-- grid item -->
+                    <div class="art-grid-item logos">
+                      <!-- grid item frame -->
+                      <a data-fancybox="gallery" href="img/works/original-size/6.jpg" class="art-a art-portfolio-item-frame art-vertical">
+                        <!-- img -->
+                        <img src="img/works/thumbnail/6.jpg" alt="item">
+                        <!-- zoom icon -->
+                        <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                      </a>
+                      <!-- grid item frame end -->
+                      <!-- description -->
+                      <div class="art-item-description">
+                        <!-- title -->
+                        <h5 class="mb-15">Project title</h5>
+                        <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
+                        <!-- button -->
+                        <a href="#." class="art-link art-color-link art-w-chevron">Read more</a>
+                      </div>
+                      <!-- description end -->
+
+                    </div>
+                    <!-- grid item end -->
+
+                    <!-- grid item -->
+                    <div class="art-grid-item drawings">
+                      <!-- grid item frame -->
+                      <a data-fancybox="gallery" href="img/works/original-size/7.jpg" class="art-a art-portfolio-item-frame art-square">
+                        <!-- img -->
+                        <img src="img/works/thumbnail/7.jpg" alt="item">
+                        <!-- zoom icon -->
+                        <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                      </a>
+                      <!-- grid item frame end -->
+                      <!-- description -->
+                      <div class="art-item-description">
+                        <!-- title -->
+                        <h5 class="mb-15">Project title</h5>
+                        <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
+                        <!-- button -->
+                        <a href="#." class="art-link art-color-link art-w-chevron">Read more</a>
+                      </div>
+                      <!-- description end -->
+
+                    </div>
+                    <!-- grid item end -->
+
+                    <!-- grid item -->
+                    <div class="art-grid-item ui">
+                      <!-- grid item frame -->
+                      <a data-fancybox="gallery" href="img/works/original-size/8.jpg" class="art-a art-portfolio-item-frame art-horizontal">
+                        <!-- img -->
+                        <img src="img/works/thumbnail/8.jpg" alt="item">
+                        <!-- zoom icon -->
+                        <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                      </a>
+                      <!-- grid item frame end -->
+                      <!-- description -->
+                      <div class="art-item-description">
+                        <!-- title -->
+                        <h5 class="mb-15">Project title</h5>
+                        <!-- button -->
+                        <a href="#." class="art-link art-color-link art-w-chevron">Read more</a>
+                      </div>
+                      <!-- description end -->
+
+                    </div>
+                    <!-- grid item end -->
+
+                  </div>
+
+                </div>
+                <!-- row end -->
+
+              </div>
+              <!-- container end -->
+
+              <!-- container -->
+              <div class="container-fluid">
+
+                <!-- row -->
+                <div class="row">
+
+                  <!-- col -->
+                  <div class="col-lg-6">
+
+                    <!-- section title -->
+                    <div class="art-section-title">
+                      <!-- title frame -->
+                      <div class="art-title-frame">
+                        <!-- title -->
+                        <h4>Education</h4>
+                      </div>
+                      <!-- title frame end -->
+                    </div>
+                    <!-- section title end -->
+
+                    <!-- timeline -->
+                    <div class="art-timeline art-gallery" id="history">
+                      <div class="art-timeline-item">
+                        <div class="art-timeline-mark-light"></div>
+                        <div class="art-timeline-mark"></div>
+
+                        <div class="art-a art-timeline-content">
+                          <div class="art-card-header">
+                            <div class="art-left-side">
+                              <h5>Highschool, Reykjavík university</h5>
+                              <div class="art-el-suptitle mb-15">Hólmar Karl Hólmarsson</div>
+                            </div>
+                            <div class="art-right-side">
+                              <span class="art-date">aug 2017 - dec 2018</span>
+                            </div>
+                          </div>
+
+                          <p>Highschool degree from Reykjavík university (ice. Háskólabrú)</p>
+                        </div>
+                      </div>
+
+                      <div class="art-timeline-item">
+                        <div class="art-timeline-mark-light"></div>
+                        <div class="art-timeline-mark"></div>
+
+                        <div class="art-a art-timeline-content">
+                          <div class="art-card-header">
+                            <div class="art-left-side">
+                              <h5>B.Sc. Reykjavík university</h5>
+                              <div class="art-el-suptitle mb-15">Hólmar Karl Hólmarsson</div>
+                            </div>
+                            <div class="art-right-side">
+                              <span class="art-date">jan 2019 - jun 2021</span>
+                            </div>
+                          </div>
+                          <div>Majoring in Computer Science</div>
+                          <a data-fancybox="diplome" href="files/certificate.jpg" class="art-link art-color-link art-w-chevron">Diplome</a>
+                        </div>
+                      </div>
+
+                    </div>
+                    <!-- timeline end -->
+
+                  </div>
+                  <div class="col-lg-6">
+
+                    <!-- section title -->
+                    <div class="art-section-title">
+                      <!-- title frame -->
+                      <div class="art-title-frame">
+                        <!-- title -->
+                        <h4>Work History</h4>
+                      </div>
+                      <!-- title frame end -->
+                    </div>
+                    <!-- section title end -->
+
+                    <!-- timeline -->
+                    <div class="art-timeline">
+
+                      <div class="art-timeline-item">
+                        <div class="art-timeline-mark-light"></div>
+                        <div class="art-timeline-mark"></div>
+
+
+                        <div class="art-a art-timeline-content">
+                          <div class="art-card-header">
+                            <div class="art-left-side">
+                              <h5>To be started</h5>
+                              <div class="art-el-suptitle mb-15">Hólmar Karl Hólmarsson</div>
+                            </div>
+                            <div class="art-right-side">
+                              <span class="art-date">Unknown</span>
+                            </div>
+                          </div>
+                          <p>Currently i am finishing my last semaster.</p>
+                        </div>
+                      </div>
+
+                    </div>
+                    <!-- timeline end -->
+
+                  </div>
+                  <!-- col end -->
+
+                </div>
+                <!-- row end -->
+
+              </div>
+              <!-- container end -->
+
+              <!-- container -->
+              <div class="container-fluid">
+
+                <!-- row -->
+                <div class="row p-30-0">
+
+                  <!-- col -->
+                  <div class="col-lg-12">
+
+                    <!-- section title -->
+                    <div class="art-section-title">
+                      <!-- title frame -->
+                      <div class="art-title-frame">
+                        <!-- title -->
+                        <h4>Contact information</h4>
+                      </div>
+                      <!-- title frame end -->
+                    </div>
+                    <!-- section title end -->
+
+                  </div>
+                  <!-- col end -->
+                  <!-- col -->
+                  <div class="col-lg-4">
+                    <!-- contact card -->
+                    <div class="art-a art-card">
+                      <div class="art-table p-15-15">
+                        <ul>
+                          <li>
+                            <h6>Country:</h6><span>Iceland</span>
+                          </li>
+                          <li>
+                            <h6>City:</h6><span>Reykjavík</span>
+                          </li>
+                          <li>
+                            <h6>Email:</h6><span>holmar17@ru.is</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <!-- contact card end -->
+                  </div>
+                  <!-- col end -->
+
+
+                  <!-- col -->
+                  <div class="col-lg-12">
+
+                    <!-- section title -->
+                    <div class="art-section-title">
+                      <!-- title frame -->
+                      <div class="art-title-frame">
+                        <!-- title -->
+                        <h4>Get in touch</h4>
+                      </div>
+                      <!-- title frame end -->
+                    </div>
+                    <!-- section title end -->
+
+                    <!-- contact form frame -->
+                    <div class="art-a art-card">
+
+                      <!-- contact form -->
+                      <form id="form" class="art-contact-form">
+                        <!-- form field -->
+                        <div class="art-form-field">
+                          <!-- name input -->
+                          <input id="name" name="name" class="art-input" type="text" placeholder="Name" required>
+                          <!-- label -->
+                          <label for="name"><i class="fas fa-user"></i></label>
+                        </div>
+                        <!-- form field end -->
+                        <!-- form field -->
+                        <div class="art-form-field">
+                          <!-- email input -->
+                          <input id="email" name="email" class="art-input" type="email" placeholder="Email" required>
+                          <!-- label -->
+                          <label for="email"><i class="fas fa-at"></i></label>
+                        </div>
+                        <!-- form field end -->
+                        <!-- form field -->
+                        <div class="art-form-field">
+                          <!-- message textarea -->
+                          <textarea id="message" name="text" class="art-input" placeholder="Message" required></textarea>
+                          <!-- label -->
+                          <label for="message"><i class="far fa-envelope"></i></label>
+                        </div>
+                        <!-- form field end -->
+                        <!-- button -->
+                        <div class="art-submit-frame">
+                          <button class="art-btn art-btn-md art-submit" type="submit"><span>Send message</span></button>
+                          <!-- success -->
+                          <div class="art-success">Success <i class="fas fa-check"></i></div>
+                        </div>
+                      </form>
+                      <!-- contact form end -->
+
+                    </div>
+                    <!-- contact form frame end -->
+
+                  </div>
+                  <!-- col end -->
+
+                </div>
+                <!-- row end -->
+
+              </div>
+              <!-- container end -->
+
+              <!-- container -->
+              <div class="container-fluid">
+
+                <!-- row -->
+                <div class="row">
+
+                  <!-- col -->
+                  <div class="col-6 col-lg-3">
+                    <!-- brand -->
+                    <img class="art-brand" src="img/brands/1.png" alt="brand">
+                  </div>
+                  <!-- col end -->
+
+                  <!-- col -->
+                  <div class="col-6 col-lg-3">
+                    <!-- brand -->
+                    <img class="art-brand" src="img/brands/2.png" alt="brand">
+                  </div>
+                  <!-- col end -->
+
+                  <!-- col -->
+                  <div class="col-6 col-lg-3">
+                    <!-- brand -->
+                    <img class="art-brand" src="img/brands/3.png" alt="brand">
+                  </div>
+                  <!-- col end -->
+
+                  <!-- col -->
+                  <div class="col-6 col-lg-3">
+                    <!-- brand -->
+                    <img class="art-brand" src="img/brands/1.png" alt="brand">
+                  </div>
+                  <!-- col end -->
+
+                </div>
+                <!-- row end -->
+
+              </div>
+              <!-- container end -->
+
+              <!-- container -->
+              <div class="container-fluid">
+
+                <!-- footer -->
+                <footer>
+                  <!-- copyright 
+                  <div>© 2020 Artur Carter</div>-->
+                </footer>
+                <!-- footer end -->
+
+              </div>
+              <!-- container end -->
+
+            </div>
+            <!-- scroll frame end -->
+
+          </div>
+          <!-- swup container end -->
+
+        </div>
+        <!-- content end -->
+
+      </div>
+      <!-- app container end -->
+
+    </div>
+    <!-- app wrapper end -->
+
+    <!-- preloader -->
+    <div class="art-preloader">
+      <!-- preloader content -->
+      <div class="art-preloader-content">
+        <!-- title -->
+        <h4>Hólmar Karl Hólmarsson</h4>
+        <!-- progressbar -->
+        <div id="preloader" class="art-preloader-load"></div>
+      </div>
+      <!-- preloader content end -->
+    </div>
+    <!-- preloader end -->
+
+  </div>
+  <!-- app end -->
+  <div id="swupMenu"></div>
+
+  <!-- jquery js -->
+  <script src="js/plugins/jquery.min.js"></script>
+  <!-- anime js -->
+  <script src="js/plugins/anime.min.js"></script>
+  <!-- swiper js -->
+  <script src="js/plugins/swiper.min.js"></script>
+  <!-- progressbar js -->
+  <script src="js/plugins/progressbar.min.js"></script>
+  <!-- smooth scrollbar js -->
+  <script src="js/plugins/smooth-scrollbar.min.js"></script>
+  <!-- overscroll js -->
+  <script src="js/plugins/overscroll.min.js"></script>
+  <!-- typing js -->
+  <script src="js/plugins/typing.min.js"></script>
+  <!-- isotope js -->
+  <script src="js/plugins/isotope.min.js"></script>
+  <!-- fancybox js -->
+  <script src="js/plugins/fancybox.min.js"></script>
+  <!-- swup js -->
+  <script src="js/plugins/swup.min.js"></script>
+
+  <!-- main js -->
+  <script src="js/main.js"></script>
+
+</body>
+
 </html>
