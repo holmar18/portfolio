@@ -149,6 +149,18 @@ h6 {
   color: #fafafc;
 }
 
+/* ----- Project github BTN ----- */
+.github-btn {
+  border-top-left-radius: 0.2rem;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 0.2rem;
+}
+
+.github-btn-icon {
+  margin-right: 0.4rem;
+}
+
 /* ----- container ----- */
 .container-fluid {
   overflow: hidden;
