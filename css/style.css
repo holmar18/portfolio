@@ -155,10 +155,19 @@ h6 {
   border-top-right-radius: 1rem;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 0.2rem;
+  width: 10rem;
 }
 
 .github-btn-icon {
   margin-right: 0.4rem;
+}
+
+/* ---- Video showcase container ----*/
+.video-showcase-cont {
+  border-top-left-radius: 0.2rem;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 0.2rem;
 }
 
 /* ----- container ----- */
